@@ -8,3 +8,22 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* header  styles */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul {
+    display: flex;
+   
+}
+
+nav > li{
+    list-style: none;
+    margin-right: 30px;
+}
