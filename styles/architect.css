@@ -30,7 +30,7 @@ nav ul li{
     font-size: 2.8rem;
     font-weight: 700;
     color: #131313;}
-    
+
 /* banner  styles */
 .banner-content{
     max-width: 800px;
@@ -48,7 +48,41 @@ nav ul li{
     color: #131313; 
 }
 
+.btn-primary{
+    border: 20px;
+    color:#FFF;
+    background: #FF900E;
+    font-size: 1.25rem;
+    padding: 20px 25px;
+    cursor: pointer;
+    border:0 ;
+
+}
 
 
+/* main styles */
 
+main{
+    width: 1440jpx;
+    margin:70px auto;
+}
 
+/* teams styles */
+.teams-container{
+    display: flex;
+    align-items: center;
+
+}
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+
+}
+    .teams-content {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .teams-title{
+        font-size: 2.8rem;
+    }
