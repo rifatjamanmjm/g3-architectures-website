@@ -86,3 +86,51 @@ main{
     .teams-title{
         font-size: 2.8rem;
     }
+    /* feature section styles */
+    .features {
+        
+        margin-top:130px;
+        display: flex;
+        gap: 100px;
+    }
+    .features .section-title{
+       
+        border-left:5px solid #FF900E;
+        padding-left: 20px;
+    }
+    .feature-content .card {
+        padding: 30px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        background: #f1efef;
+        box-shadow: 0px 4px 30px 0px rgba(219, 98, 98, 0.06);
+    }
+
+    .feature-img img{
+        height: 90%;
+        border-radius: 20px;
+        margin-left: 90px;
+    }
+        
+
+
+ .ten-years-badge{
+    border-radius: 20px;
+    background: #FF900E;
+    color: #FFF;
+    width: 340px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.ten-years-badge h2{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.ten-years-badge p{
+    font-size: 1.5rem;
+}
+
